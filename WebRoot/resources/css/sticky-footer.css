@@ -1,0 +1,28 @@
+@media (min-width:768px) and (max-width:1200px){
+
+}
+
+html {
+  position: relative!important;
+  min-height: 100%!important;
+}
+body {
+  /* Margin bottom by footer height */
+
+  padding-bottom:60px!important;
+
+}
+.footer {
+  position: absolute!important;
+  /*position: fixed!important;*/
+  bottom: 0!important;
+  width: 100%!important;
+  /*height:0!important;/* 9-5-16*/
+
+
+}
+body > .container {
+   
+  padding-bottom:60px;
+  margin-bottom:60px!important;/* 9-5-16*/
+}
